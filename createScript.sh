@@ -9,8 +9,6 @@ touch ${name_s}
 # append content to script file
 echo " #!/usr/bin/env bash" >> ${name_s}
 echo " ####### Script Created Automatically ####### " >> ${name_s}
-echo " pwd " >> ${name_s}
-echo " cal " >> ${name_s}
 
 # give file executable permissions
 chmod +x ${name_s}
