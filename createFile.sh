@@ -4,8 +4,8 @@ touch 1.txt 2.txt
 
 ls -la >> 1.txt
 
-echo "What prefix should 1.txt have"
+read -p " What prefix should 1.txt have? " pref
 
-read prefix
+mv 1.txt ${pref}1.txt
 
-mv 1.txt 1$prefix
+echo "Done"
