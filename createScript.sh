@@ -7,7 +7,7 @@ read -p "name of script to create: " name_s
 touch ${name_s}
 
 # append content to script file
-echo " #!/usr/bin/env bash" >> ${name_s}
+echo " #! /bin/bash" >> ${name_s}
 echo " ####### Script Outline Created Automatically ####### " >> ${name_s}
 
 # give file executable permissions
