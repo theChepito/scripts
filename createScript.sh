@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#! /bin/bash
 
 # prompt user to define script name, assign to variable
 read -p "name of script to create: " name_s
